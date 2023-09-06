@@ -6,7 +6,6 @@ public class SelectionSort {
     //O(n^2)
     //index 0 is the first largest value
     //work from index 1
-    //if [indexOfLargest] > [currentIndex] - swap or nothing
     //+ no need for extra memory, no much swapping as bubble, better than bubble
     //- unstable sort
 
