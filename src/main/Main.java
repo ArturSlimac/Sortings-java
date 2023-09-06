@@ -1,6 +1,6 @@
 package main;
 
-import domain.InsertionSort;
+import domain.ShellSort;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Before:");
         printArray(intArray);
 
-        new InsertionSort().sortDescFromTheEnd(intArray);
+        new ShellSort().sortAsc(intArray);
 
         System.out.println("After:");
         printArray(intArray);
